@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hc1N8eW+bLE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Student\\Desktop\\POE Part 1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
