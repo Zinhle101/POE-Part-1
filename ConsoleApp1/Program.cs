@@ -141,9 +141,9 @@ namespace userGreeting // start of namespace
 
         ArrayList ignoring = new ArrayList();
 
-        int passwordIndex = 0; // index to count the responses
-        int linkIndex = 0;
-        int phishingIndex = 0;
+        int passwordIndex = 0; // index to count the responses for passwords
+        int linkIndex = 0; // index to count the responses for links
+        int phishingIndex = 0; // index to count the responses for phishing
 
         string lastTopic = "";
         int responsesPerChunk = 3;
@@ -177,13 +177,13 @@ namespace userGreeting // start of namespace
             passwordResponses.Add("use different passwords for different accounts");
             passwordResponses.Add("change your passwords regularly");
 
-            linkResponses.Add("be careful when clicking links from unknown sources");
+            linkResponses.Add("be careful when clicking links from unknown sources"); // responses to link-related questions
             linkResponses.Add("check the full website address before clicking");
             linkResponses.Add("hover over links to preview them");
             linkResponses.Add("avoid clicking suspicious links");
             linkResponses.Add("shortened links can hide dangerous sites");
 
-            phishingResponses.Add("be cautious of emails asking for personal information");
+            phishingResponses.Add("be cautious of emails asking for personal information"); // responses to phishing-related questions
             phishingResponses.Add("phishing emails often create urgency");
             phishingResponses.Add("check the sender address carefully");
             phishingResponses.Add("do not click suspicious email links");
