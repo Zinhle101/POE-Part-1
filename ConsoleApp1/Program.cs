@@ -122,7 +122,7 @@ namespace userGreeting // start of namespace
             Console.Write("Chatty: ");
             
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine($"Welcome to the CyberSafe app, {name}! How can I help you today?");
+            Console.WriteLine($"Welcome to the CyberSafe app, {name}! My name is Chatty, how can Ihelp you stay safe online!");
             
             Console.ResetColor();
         } // end of welcome response method 
