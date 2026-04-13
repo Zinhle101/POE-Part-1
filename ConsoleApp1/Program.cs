@@ -216,7 +216,7 @@ namespace userGreeting // start of namespace
                 return true;
             }
 
-            if (question == "exit")
+            if (question == "exit") // if statement for the end of the chat when user types "exit"
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write("Chatty: ");
