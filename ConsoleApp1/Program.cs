@@ -221,7 +221,7 @@ namespace userGreeting // start of namespace
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write("Chatty: ");
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("Goodbye " + name);
+                Console.WriteLine("Goodbye! Stay safe on the web! " + name);
                 Console.ResetColor();
                 return false;
             }
