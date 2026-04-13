@@ -47,7 +47,7 @@ namespace userGreeting // start of namespace
         
         public void DisplayWelcomeMessage() // method for welcome message and logo
         { // start of welcome message method
-            Console.ForegroundColor = ConsoleColor.Red; // AI generated logo
+            Console.ForegroundColor = ConsoleColor.Magenta; // AI generated logo
             Console.WriteLine(@"
    _____       _               _____        __        
   / ____|     | |             / ____|      / _|     
@@ -66,7 +66,7 @@ namespace userGreeting // start of namespace
             Console.WriteLine("======================--------------------------------========================");
             
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("                      [ Welcome to the CyberSafe chatbot ]          ");
+            Console.WriteLine("                      [ Hello! Welcome to the CyberSafe Chatbot app ]          ");
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("======================--------------------------------========================");
@@ -74,7 +74,7 @@ namespace userGreeting // start of namespace
             Console.ResetColor();
         } // end of display welcome message method
         
-        public void prompt_name()  // method that prompts user to enter name
+        public void prompt_username()  // method that prompts user to enter name
         { // start of propmt name method 
         
             Console.ForegroundColor = ConsoleColor.Green;
