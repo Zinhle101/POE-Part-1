@@ -74,7 +74,7 @@ namespace userGreeting // start of namespace
             Console.ResetColor();
         } // end of display welcome message method
         
-        public void prompt_username()  // method that prompts user to enter name
+        public void prompt_name()  // method that prompts user to enter name
         { // start of propmt name method 
         
             Console.ForegroundColor = ConsoleColor.Green;
